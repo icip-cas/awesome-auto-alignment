@@ -5,7 +5,7 @@ This is a collection of papers and other resources for scalable automated alignm
 
 Welcome to follow and star! 
 
-
+![image](https://github.com/cascip/awesome-auto-alignment/blob/main/Figures/head.png)
 
 *We will release the full version of this repo within this week.*
 
