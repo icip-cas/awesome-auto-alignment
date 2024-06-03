@@ -1,6 +1,6 @@
 # Awesome Automated Alignment
 
-This is a collection of papers and other resources for scalable automated alignment. which corresponds to the **survey paper "Towards Scalable Automated Alignment: A Survey"**. We will update the survey content and this paper list regularly, and we very much welcome suggestions of any kind.
+This is a collection of papers and other resources for scalable automated alignment. which corresponds to the survey paper **"Towards Scalable Automated Alignment of LLMs: A Survey"**. We will update the survey content and this repo regularly, and we very much welcome suggestions of any kind.
 
 
 Welcome to follow and star! 
