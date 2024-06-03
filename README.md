@@ -7,7 +7,7 @@ Welcome to follow and star!
 
 ![image](https://github.com/cascip/awesome-auto-alignment/blob/main/Figures/head.png)
 
-*We will release the full version of this repo within this week.*
+*We will release the full version of this repo very soon.*
 
 ## Abstract
 
