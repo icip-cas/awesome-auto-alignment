@@ -5,9 +5,21 @@ This is a collection of papers and other resources for scalable automated alignm
 
 Welcome to follow and star! 
 
-![image](./Figures/head.png)
+![mage](./Figures/head.png)
 
 *We will release the full version of this repo within this week.*
+
+If you find our survey useful, please consider citing:
+
+```
+@article{AutomatedAlignmentSurvey,
+    title={Towards Scalable Automated Alignment of LLMs: A Survey},
+    author={Boxi Cao, Keming Lu, Xinyu Lu, Jiawei Chen, Mengjie Ren, Hao Xiang, Peilin Liu, Yaojie Lu, Ben He, Xianpei Han, Le Sun, Hongyu Lin, and Bowen Yu},
+    year={2024},
+    journal={arXiv preprint arXiv:2406.01252},
+    url={https://arxiv.org/abs/2406.01252}
+}
+```
 
 ## Abstract
 
@@ -17,6 +29,16 @@ Specifically, we categorize existing automated alignment methods into 4 major ca
 Additionally, we explore the underlying mechanisms that enable automated alignment and discuss the essential factors that make automated alignment technologies feasible and effective from the fundamental role of alignment.
 
 ## Table of Contents
+
+- [Aligning through inductive bias](#1-aligning-through-inductive-bias)
+
+- [Aligning through behaviour imitation](#2-aligning-through-behaviour-imitation)
+
+- [Aligning through model feedback](#3-aligning-through-model-feedback)
+
+- [Aligning through environment feedback](#4-aligning-through-environment-feedback)
+
+- [Underlying Mechanism of Automated Alignment](#5-underlying-mechanism-of-automated-alignment)
 
 ## Paper List
 
@@ -113,9 +135,9 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 * **Stanford Alpaca: An Instruction-following LLaMA model.** *Rohan Taori et al.* GitHub repository 2023. [[code](https://github.com/tatsu-lab/stanford_alpaca)]
 
-* **Self-Instruct: Aligning Language Models with Self-Generated Instructions.** *Wang et al.* Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) 2023. [[paper](https://aclanthology.org/2023.acl-long.754)]
+* **Self-Instruct: Aligning Language Models with Self-Generated Instructions.** *Wang et al.* ACL 2023. [[paper](https://aclanthology.org/2023.acl-long.754)]
 
-* **Dynosaur: A Dynamic Growth Paradigm for Instruction-Tuning Data Curation.** *Yin et al.* Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing 2023. [[paper](https://aclanthology.org/2023.emnlp-main.245)]
+* **Dynosaur: A Dynamic Growth Paradigm for Instruction-Tuning Data Curation.** *Yin et al.* EMNLP 2023. [[paper](https://aclanthology.org/2023.emnlp-main.245)]
 
 * **Human-Instruction-Free LLM Self-Alignment with Limited Samples.** *Hongyi Guo et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.06785)]
 
@@ -140,13 +162,13 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 * **Instruction Tuning with GPT-4.** *Baolin Peng et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2304.03277)]
 
-* **Enhancing Chat Language Models by Scaling High-quality Instructional Conversations.** *Ding et al.* Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing 2023. [[paper](https://aclanthology.org/2023.emnlp-main.183)]
+* **Enhancing Chat Language Models by Scaling High-quality Instructional Conversations.** *Ding et al.* EMNLP 2023. [[paper](https://aclanthology.org/2023.emnlp-main.183)]
 
 * **Parrot: Enhancing Multi-Turn Chat Models by Learning to Ask Questions.** *Yuchong Sun et al.* arXiv 2023. [[paper](https://openreview.net/forum?id=Rd4pGjTcTj)]
 
 * **ZeroShotDataAug: Generating and Augmenting Training Data with ChatGPT.** *Solomon Ubani et al.* arXiv 2023. [[paper](https://openreview.net/forum?id=6LLc3ETdrMK)]
 
-* **Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data.** *Xu et al.* Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing 2023. [[paper](https://aclanthology.org/2023.emnlp-main.385)]
+* **Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data.** *Xu et al.* EMNLP 2023. [[paper](https://aclanthology.org/2023.emnlp-main.385)]
 
 ##### 2.2.2 Math
 
@@ -162,11 +184,11 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 * **Distilling Reasoning Capabilities into Smaller Language Models.** *Shridhar et al.* Findings of ACL 2023. [[paper](https://aclanthology.org/2023.findings-acl.441)]
 
-* **Teaching Small Language Models to Reason.** *Magister et al.* Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers) 2023. [[paper](https://aclanthology.org/2023.acl-short.151)]
+* **Teaching Small Language Models to Reason.** *Magister et al.* ACL 2023. [[paper](https://aclanthology.org/2023.acl-short.151)]
 
 * **Specializing Smaller Language Models towards Multi-Step Reasoning.** *Yao Fu et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2301.12726)]
 
-* **Large Language Models Are Reasoning Teachers.** *Ho et al.* Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) 2023. [[paper](https://aclanthology.org/2023.acl-long.830)]
+* **Large Language Models Are Reasoning Teachers.** *Ho et al.* ACL 2023. [[paper](https://aclanthology.org/2023.acl-long.830)]
 
 * **Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes.** *Hsieh et al.* Findings of ACL 2023. [[paper](https://aclanthology.org/2023.findings-acl.507)]
 
@@ -215,19 +237,19 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 #### 2.3 Preference-Guided Distillation
 
-* **Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks.** *Wang et al.* Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing 2022. [[paper](https://aclanthology.org/2022.emnlp-main.340)]
+* **Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks.** *Wang et al.* EMNLP 2022. [[paper](https://aclanthology.org/2022.emnlp-main.340)]
 
-* **UltraFeedback: Boosting Language Models with High-quality Feedback.** *Ganqu Cui et al.*  2024. [[paper](https://openreview.net/forum?id=pNkOx3IVWI)]
+* **UltraFeedback: Boosting Language Models with High-quality Feedback.** *Ganqu Cui et al.* ICLR 2024. [[paper](https://openreview.net/forum?id=pNkOx3IVWI)]
 
 * **Preference Ranking Optimization for Human Alignment.** *Song et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2306.17492)]
 
-* **A general theoretical paradigm to understand learning from human preferences.** *Azar et al.* International Conference on Artificial Intelligence and Statistics 2024. [[paper](https://arxiv.org/abs/2310.12036)]
+* **A general theoretical paradigm to understand learning from human preferences.** *Azar et al.* AISTATS 2024. [[paper](https://arxiv.org/abs/2310.12036)]
 
 * **CycleAlign: Iterative Distillation from Black-box LLM to White-box Models for Better Human Alignment.** *Jixiang Hong et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.16271)]
 
 * **Zephyr: Direct Distillation of LM Alignment.** *Lewis Tunstall et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.16944)]
 
-* **Aligning Large Language Models through Synthetic Feedback.** *Kim et al.* Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing 2023. [[paper](https://aclanthology.org/2023.emnlp-main.844)]
+* **Aligning Large Language Models through Synthetic Feedback.** *Kim et al.* EMNLP 2023. [[paper](https://aclanthology.org/2023.emnlp-main.844)]
 
 * **MetaAligner: Conditional Weak-to-Strong Correction for Generalizable Multi-Objective Alignment of Language Models.** *Kailai Yang et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2403.17141)]
 
@@ -297,7 +319,7 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 * **Scaling Relationship on Learning Mathematical Reasoning with Large Language Models.** *Zheng Yuan et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2308.01825)]
 
-* **RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment.** *Hanze Dong et al.* Transactions on Machine Learning Research 2023. [[paper](https://openreview.net/forum?id=m7p5O7zblY)]
+* **RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment.** *Hanze Dong et al.* TMLR 2023. [[paper](https://openreview.net/forum?id=m7p5O7zblY)]
 
 * **RRHF: Rank Responses to Align Language Models with Human Feedback.** *Hongyi Yuan et al.* NIPS 2023. [[paper](https://openreview.net/forum?id=EdIGMCHk4l)]
 
@@ -305,11 +327,11 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 - **SALMON: Self-Alignment with Principle-Following Reward Models.** *Zhiqing Sun et al.* ICLR 2023. [[paper](https://openreview.net/forum?id=xJbsmB8UMx)]
 
-- **Aligning Large Language Models through Synthetic Feedback.** *Kim et al.* Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing 2023. [[paper](https://aclanthology.org/2023.emnlp-main.844)]
+- **Aligning Large Language Models through Synthetic Feedback.** *Kim et al.* EMNLP 2023. [[paper](https://aclanthology.org/2023.emnlp-main.844)]
 
-- **Reward-Augmented Decoding: Efficient Controlled Text Generation With a Unidirectional Reward Model.** *Deng et al.* Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing 2023. [[paper](https://aclanthology.org/2023.emnlp-main.721)]
+- **Reward-Augmented Decoding: Efficient Controlled Text Generation With a Unidirectional Reward Model.** *Deng et al.* EMNLP 2023. [[paper](https://aclanthology.org/2023.emnlp-main.721)]
 
-- **Critic-Driven Decoding for Mitigating Hallucinations in Data-to-text Generation.** *Lango et al.* Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing 2023. [[paper](https://aclanthology.org/2023.emnlp-main.172)]
+- **Critic-Driven Decoding for Mitigating Hallucinations in Data-to-text Generation.** *Lango et al.* EMNLP 2023. [[paper](https://aclanthology.org/2023.emnlp-main.172)]
 
 - **Large Language Models Are Not Fair Evaluators.** *Wang et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2305.17926)]
 
@@ -348,17 +370,17 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 * **Improving Large Language Model Fine-tuning for Solving Math Problems.** *Yixin Liu et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.10047)]
 
-* **Making Language Models Better Reasoners with Step-Aware Verifier.** *Li et al.* Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) 2023. [[paper](https://aclanthology.org/2023.acl-long.291)]
+* **Making Language Models Better Reasoners with Step-Aware Verifier.** *Li et al.* ACL 2023. [[paper](https://aclanthology.org/2023.acl-long.291)]
 
 * **Let's Verify Step by Step.** *Hunter Lightman et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2305.20050)]
 
-* **Solving Math Word Problems via Cooperative Reasoning induced Language Models.** *Zhu et al.* Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) 2023. [[paper](https://aclanthology.org/2023.acl-long.245)]
+* **Solving Math Word Problems via Cooperative Reasoning induced Language Models.** *Zhu et al.* ACL 2023. [[paper](https://aclanthology.org/2023.acl-long.245)]
 
 * **GRACE: Discriminator-Guided Chain-of-Thought Reasoning.** *Khalifa et al.* Findings of ACL 2023. [[paper](https://aclanthology.org/2023.findings-emnlp.1022)]
 
 * **Let's reward step by step: Step-Level reward model as the Navigators for Reasoning.** *Qianli Ma et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.10080)]
 
-* **Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models.** *Avi Singh et al.* Transactions on Machine Learning Research 2024. [[paper](https://openreview.net/forum?id=lNAyUngGFK)]
+* **Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models.** *Avi Singh et al.* TMLR 2024. [[paper](https://openreview.net/forum?id=lNAyUngGFK)]
 
 * **V-STaR: Training Verifiers for Self-Taught Reasoners.** *Arian Hosseini et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2402.06457)]
 
@@ -384,7 +406,7 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 * **Critique Ability of Large Language Models.** *Liangchen Luo et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.04815)]
 
-* **Learning from Natural Language Feedback.** *Angelica Chen et al.* Transactions on Machine Learning Research 2024. [[paper](https://openreview.net/forum?id=xo3hI5MwvU)]
+* **Learning from Natural Language Feedback.** *Angelica Chen et al.* TMLR 2024. [[paper](https://openreview.net/forum?id=xo3hI5MwvU)]
 
 * **Open Source Language Models Can Provide Feedback: Evaluating LLMs' Ability to Help Students Using GPT-4-As-A-Judge.** *Charles Koutcheme et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2405.05253)]
 
@@ -395,44 +417,71 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 #### 4.1 Social Interactions
 
 - **Training Socially Aligned Language Models on Simulated Social Interactions** *Liu et al.* ICLR 2024. [[paper](https://arxiv.org/abs/2305.16960)] [[code](https://github.com/agi-templar/Stable-Alignment)]
+
 - **MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Moral Discussions** *Sun et al.* ACL 2023. [[paper](https://aclanthology.org/2023.acl-long.123.pdf)] [[code](https://github.com/thu-coai/MoralDial)]
+
 - **SOTOPIA-$\pi$: Interactive Learning of Socially Intelligent Language Agents** *Wang et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2403.08715)] [[code](https://github.com/sotopia-lab/sotopia-pi)]
+
 - **Systematic Biases in LLM Simulations of Debates** *Taubenfeld et al.* arXiv 2024. [[paper](https://arxiv.org/pdf/2402.04049)]
+
 - **Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk** *Ulmer et al.* arXiv 2024 [[paper](https://arxiv.org/abs/2401.05033)]
+
 - **Social Chemistry 101: Learning to Reason about Social and Moral Norms** *Forbes et al.* EMNLP 2020. [[paper](https://aclanthology.org/2020.emnlp-main.48.pdf)] [[code](https://github.com/mbforbes/social-chemistry-101)]
+
 - **Aligning to Social Norms and Values in Interactive Narratives** *Prithviraj et al.* NAACL 2022. [[paper](https://aclanthology.org/2022.naacl-main.439.pdf)]
+
 - **The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems** *Ziems et al.* ACL 2022. [[paper](https://aclanthology.org/2022.acl-long.261.pdf)] [[code](https://github.com/SALT-NLP/mic)]
+
 - **Agent Alignment in Evolving Social Norms** *Li et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.04620)]
+
 - **What are human values, and how do we align AI to them?** *Klingefjord et al.* arXiv 2024. [[paper](https://arxiv.org/pdf/2404.10636)]
 
 #### 4.2 Human Collective Intelligence
 
 - **Constitutional AI: Harmlessness from AI Feedback** *Bai et al.* arXiv 2022. [[paper](https://arxiv.org/abs/2212.08073)] [[code](https://github.com/anthropics/ConstitutionalHarmlessnessPaper)]
+
 - **Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision** *Sun et al.* NeurIPS 2023. [[paper](https://arxiv.org/abs/2305.03047)] [[code](https://github.com/IBM/Dromedary)]
+
 - **ConstitutionMaker: Interactively Critiquing Large Language Models by Converting Feedback into Principles** *Petridis et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.15428)]
+
 - **Case Law Grounding: Aligning Judgments of Humans and AI on Socially-Constructed Concepts** *Chen et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.07019)]
+
 - **LeetPrompt: Leveraging Collective Human Intelligence to Study LLMs** *Santy et al.* arXiv 2024. [[paper](https://openreview.net/pdf?id=1SEXzogsET)]
+
 - **CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies** *Shi et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2404.15238)] [[code](https://github.com/SALT-NLP/CultureBank)]
+
 - **IterAlign: Iterative Constitutional Alignment of Large Language Models** *Chen et al.* NAACL 2024. [[paper](https://arxiv.org/abs/2403.18341)]
 
 #### 4.3 Tool Execution Feedback
 
 - **Teaching Large Language Models to Self-Debug** *Chen et al.* ICLR 2024. [[paper](https://openreview.net/pdf?id=KuPixIqPiq)]
+
 - **SelfEvolve: A Code Evolution Framework via Large Language Models** *Jiang et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2306.02907)]
+
 - **CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning** *Le et al.* NeurIPS 2022. [[paper](https://arxiv.org/abs/2207.01780)] [[code](https://github.com/salesforce/CodeRL)]
+
 - **CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing** *Gou et al.* ICLR 2024. [[paper](https://openreview.net/pdf?id=Sx038qxjek)] [[code](https://github.com/microsoft/ProphetNet/tree/master/CRITIC)]
+
 - **AUTOACT: Automatic Agent Learning from Scratch via Self-Planning** *Qiao et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.05268)] [[code](https://github.com/zjunlp/AutoAct)]
+
 - **LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error** *Wang et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2403.04746)] [[code](https://github.com/microsoft/simulated-trial-and-error)]
+
 - **Making Language Models Better Tool Learners with Execution Feedback** *Qiao et al.* NAACL 2024. [[paper](https://arxiv.org/abs/2305.13068)] [[code](https://github.com/zjunlp/TRICE)]
 
 #### 4.4 Embodied Environment
 
 - **Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning** *Carta et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2302.02662)] [[code](https://github.com/flowersteam/Grounding_LLMs_with_online_RL)]
+
 - **Language Models Meet World Models: Embodied Experiences Enhance Language Models** *Xiang et al.* NeurIPS 2023. [[paper](https://arxiv.org/abs/2305.10626)] [[code](https://github.com/szxiangjn/world-model-for-language-model?tab=readme-ov-file)]
+
 - **True Knowledge Comes from Practice: Aligning LLMs with Embodied Environments via Reinforcement Learning** *Tan et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.14151)] [[code](https://github.com/WeihaoTan/TWOSOME)]
+
 - **Do As I Can, Not As I Say: Grounding Language in Robotic Affordances** *Ahn et al.* arXiv 2022. [[paper](https://say-can.github.io/assets/palm_saycan.pdf)] [[code](https://say-can.github.io/)]
+
 - **Voyager: An Open-Ended Embodied Agent with Large Language Models** *Wang et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2305.16291)] [[code](https://github.com/MineDojo/Voyager)]
+
 - **Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents** *Song et al.* ACL 2024. [[paper](https://arxiv.org/abs/2403.02502)] [[code](https://github.com/Yifan-Song793/ETO)]
+
 - **Large Language Models as Generalizable Policies for Embodied Tasks** *Szot et al.* ICLR 2024. [[paper](https://arxiv.org/abs/2310.17722)]
 
 ### 5. Underlying Mechanism of Automated Alignment
@@ -492,7 +541,7 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 * **CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing.** *Gou et al.* ICLR 2024. [[paper](https://arxiv.org/abs/2305.11738)]
 
-* **CriticBench: Benchmarking LLMs for Critique-Correct Reasoning.** *Lin et al.* ACL 2024 Findings. [[paper](https://arxiv.org/abs/2402.14809)]
+* **CriticBench: Benchmarking LLMs for Critique-Correct Reasoning.** *Lin et al.* Findings of ACL 2024. [[paper](https://arxiv.org/abs/2402.14809)]
 
 * **Direct Large Language Model Alignment Through Self-Rewarding Contrastive Prompt Distillation.** *Liu et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2402.11907)]
 
