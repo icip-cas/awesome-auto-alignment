@@ -85,6 +85,8 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 - **The Consensus Game: Language Model Generation via Equilibrium Search.** *Athul Paul Jacob et al.* ICLR 2024. [[paper](https://openreview.net/forum?id=n9xeGcI4Yg)]
 
+- **Adversarial Preference Optimization: Enhancing Your Alignment via RM-LLM Game** *Cheng et al.* ACL 2024. [[paper](https://arxiv.org/abs/2311.08045)]
+
 - **Self-play fine-tuning converts weak language models to strong language models.** *Chen et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.01335)]
 
 ##### 1.5.2 Debate
