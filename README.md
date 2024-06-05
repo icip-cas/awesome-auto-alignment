@@ -1,15 +1,17 @@
 # Awesome Automated Alignment
 
-This is a collection of papers and other resources for scalable automated alignment. which corresponds to the **survey paper "Towards Scalable Automated Alignment: A Survey"**. We will update the survey content and this paper list regularly, and we very much welcome suggestions of any kind.
-
-
-Welcome to follow and star! 
+This is a collection of papers and other resources for scalable automated alignment, which corresponds to the survey paper **Towards Scalable Automated Alignment of LLMs: A Survey**. 
+We will update the survey content and this repo regularly, and we very much welcome suggestions of any kind.
 
 ![mage](./Figures/head.png)
 
-*We will release the full version of this repo within this week.*
+## 📢 News 
 
-If you find our survey useful, please consider citing:
+**[June 4, 2024]** The first preprint version of this survey is released. Since many of the topics covered in this paper are rapidly evolving, we anticipate updating this repository and paper at a relatively fast pace.
+
+## Citation
+
+If you find our survey or repo useful, please consider citing:
 
 ```
 @article{AutomatedAlignmentSurvey,
@@ -56,7 +58,7 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 - **Large Language Models Can Self-Improve.** *Huang et al.* EMNLP 2023. [[Paper](https://openreview.net/forum?id=uuUQraD4XX)]
 
-- **West-of-N: Synthetic Preference Generation for Improved Reward Modeling.** *Pace et al.* Arxiv 2024. [[Paper](https://arxiv.org/abs/2401.12086)]
+- **West-of-N: Synthetic Preference Generation for Improved Reward Modeling.** *Pace et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2401.12086)]
 
 - **Quiet-STaR: Language models can teach themselves to think before speaking.** *Zelikman et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2403.09629)]
 
