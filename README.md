@@ -494,13 +494,13 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 * **The False Promise of Imitating Proprietary LLMs.** *Gudib et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2305.15717)]
 
+* **Exploring the Relationship between In-Context Learning and Instruction Tuning.** *Duan et al.* arxiv 2023. [[paper](https://arxiv.org/abs/2311.10367)]
+
 * **Towards Expert-Level Medical Question Answering with Large Language Models.** *Singhal et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2305.09617)]
 
 * **Injecting New Knowledge into Large Language Models via Supervised Fine-Tuning.** *Mecklenburg et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2404.00213)]
 
 * **The Unlocking Spell on Base LLMs:  Rethinking Alignment via In-Context Learning.** *Lin et al.* ICLR 2024. [[paper](https://openreview.net/forum?id=wxJ0eXwwda)]
-
-* **Exploring the Relationship between In-Context Learning and Instruction Tuning.** *Duan et al.* NAACL 2024. [[paper](https://arxiv.org/abs/2311.10367)]
 
 * **From Language Modeling to Instruction Following: Understanding the Behavior Shift in LLMs after Instruction Tuning.** *Wu et al.* NAACL 2024. [[paper](https://arxiv.org/abs/2310.00492)]
 
@@ -511,19 +511,13 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 #### 5.2 Inner Workings of Self-feedback
 
-* **Constitutional ai: Harmlessness from ai feedback.** *Bai et al.* arXiv 2022. [[paper](https://arxiv.org/abs/2212.08073)]
-
-* **Large Language Models Are Not Yet Human-Level Evaluators for Abstractive Summarization.** *Shen et al.* Findings of ACL 2023. [[paper](https://aclanthology.org/2023.findings-emnlp.278)]
-
-* **Self-Refine: Iterative Refinement with Self-Feedback.** *Madaan et al.* NIPS 2023. [[paper](https://openreview.net/forum?id=S37hOerQLB)]
-
-* **Self-Criticism: Aligning Large Language Models with their Understanding of Helpfulness, Honesty, and Harmlessness.** *Tan et al.* EMNLP 2023 Industry Track. [[paper](https://aclanthology.org/2023.emnlp-industry.62)]
+* **Large Language Models Are Not Yet Human-Level Evaluators for Abstractive Summarization.** *Shen et al.* Findings of EMNLP 2023. [[paper](https://aclanthology.org/2023.findings-emnlp.278)]
 
 * **Judging llm-as-a-judge with mt-bench and chatbot arena.** *Zheng et al.* NIPS 2023. [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html)]
 
 * **The Generative AI Paradox: "What It Can Create, It May Not Understand".** *West et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2311.00059)]
 
-* **Large Language Models Cannot Self-Correct Reasoning Yet.** *Huang et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.01798)]
+* **Large Language Models Cannot Self-Correct Reasoning Yet.** *Huang et al.* ICLR 2024. [[paper](https://arxiv.org/abs/2310.01798)]
 
 * **Large Language Models Are Not Fair Evaluators.** *Wang et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2305.17926)]
 
@@ -531,23 +525,13 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 * **G-Eval: NLG Evaluation Using GPT-4 with Better Human Alignment.** *Liu et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2303.16634)]
 
-* **Calibrating LLM-Based Evaluator.** *Liu et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2309.13308)]
-
-* **Split and Merge: Aligning Position Biases in Large Language Model Based Evaluators.** *Li et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.01432)]
-
 * **Benchmarking and Improving Generator-Validator Consistency of Language Models.** *Li et al.* ICLR 2024. [[paper](https://openreview.net/forum?id=phBS6YpTzC)]
 
 * **Self-Alignment with Instruction Backtranslation.** *Li et al.* ICLR 2024. [[paper](https://openreview.net/forum?id=1oijHJBRsT)]
 
-* **CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing.** *Gou et al.* ICLR 2024. [[paper](https://arxiv.org/abs/2305.11738)]
-
 * **CriticBench: Benchmarking LLMs for Critique-Correct Reasoning.** *Lin et al.* Findings of ACL 2024. [[paper](https://arxiv.org/abs/2402.14809)]
 
-* **Direct Large Language Model Alignment Through Self-Rewarding Contrastive Prompt Distillation.** *Liu et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2402.11907)]
-
 * **Self-rewarding language models.** *Yuan et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.10020)]
-
-* **The critique of critique.** *Sun et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.04518)]
 
 * **CriticBench: Evaluating Large Language Models as Critic.** *Lan et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2402.13764)]
 
