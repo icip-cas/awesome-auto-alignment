@@ -444,6 +444,10 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 - **Constitutional AI: Harmlessness from AI Feedback.** *Bai et al.* arXiv 2022. [[paper](https://arxiv.org/abs/2212.08073)] [[code](https://github.com/anthropics/ConstitutionalHarmlessnessPaper)]
 
+- **Collective Constitutional AI: Aligning a Language Model with Public Input.** Huang et al. 2024. [[paper](https://dl.acm.org/doi/10.1145/3630106.3658979)] [[blog](https://www.anthropic.com/news/collective-constitutional-ai-aligning-a-language-model-with-public-input)]
+
+- **Democratic inputs to AI grant program: lessons learned and implementation plans.** OpenAI. 2023. [[blog](https://openai.com/index/democratic-inputs-to-ai-grant-program-update/)]
+
 - **Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision.** *Sun et al.* NeurIPS 2023. [[paper](https://arxiv.org/abs/2305.03047)] [[code](https://github.com/IBM/Dromedary)]
 
 - **ConstitutionMaker: Interactively Critiquing Large Language Models by Converting Feedback into Principles.** *Petridis et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.15428)]
