@@ -420,7 +420,7 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 - **Training Socially Aligned Language Models on Simulated Social Interactions** *Liu et al.* ICLR 2024. [[paper](https://arxiv.org/abs/2305.16960)] [[code](https://github.com/agi-templar/Stable-Alignment)]
 
-- **Self-Alignment of Large Language Models via Monopolylogue-based Social Scene Simulation** *Pang et al.* ICLR 2024. [[paper](https://arxiv.org/pdf/2402.05699)] [[code](https://shuotang123.github.io/MATRIX/)]
+- **Self-Alignment of Large Language Models via Monopolylogue-based Social Scene Simulation** *Pang et al.* ICML 2024. [[paper](https://arxiv.org/pdf/2402.05699)] [[code](https://shuotang123.github.io/MATRIX/)]
 
 - **MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Moral Discussions** *Sun et al.* ACL 2023. [[paper](https://aclanthology.org/2023.acl-long.123.pdf)] [[code](https://github.com/thu-coai/MoralDial)]
 
