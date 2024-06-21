@@ -418,73 +418,79 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 #### 4.1 Social Interactions
 
-- **Training Socially Aligned Language Models on Simulated Social Interactions** *Liu et al.* ICLR 2024. [[paper](https://arxiv.org/abs/2305.16960)] [[code](https://github.com/agi-templar/Stable-Alignment)]
+- **Training Socially Aligned Language Models on Simulated Social Interactions.** *Liu et al.* ICLR 2024. [[paper](https://arxiv.org/abs/2305.16960)] [[code](https://github.com/agi-templar/Stable-Alignment)]
 
-- **MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Moral Discussions** *Sun et al.* ACL 2023. [[paper](https://aclanthology.org/2023.acl-long.123.pdf)] [[code](https://github.com/thu-coai/MoralDial)]
+- **Self-Alignment of Large Language Models via Monopolylogue-based Social Scene Simulation.** *Pang et al.* ICML 2024. [[paper](https://arxiv.org/pdf/2402.05699)] [[code](https://shuotang123.github.io/MATRIX/)]
 
-- **SOTOPIA-$\pi$: Interactive Learning of Socially Intelligent Language Agents** *Wang et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2403.08715)] [[code](https://github.com/sotopia-lab/sotopia-pi)]
+- **MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Moral Discussions.** *Sun et al.* ACL 2023. [[paper](https://aclanthology.org/2023.acl-long.123.pdf)] [[code](https://github.com/thu-coai/MoralDial)]
 
-- **Systematic Biases in LLM Simulations of Debates** *Taubenfeld et al.* arXiv 2024. [[paper](https://arxiv.org/pdf/2402.04049)]
+- **SOTOPIA-$\pi$: Interactive Learning of Socially Intelligent Language Agents.** *Wang et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2403.08715)] [[code](https://github.com/sotopia-lab/sotopia-pi)]
 
-- **Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk** *Ulmer et al.* arXiv 2024 [[paper](https://arxiv.org/abs/2401.05033)]
+- **Systematic Biases in LLM Simulations of Debates.** *Taubenfeld et al.* arXiv 2024. [[paper](https://arxiv.org/pdf/2402.04049)]
 
-- **Social Chemistry 101: Learning to Reason about Social and Moral Norms** *Forbes et al.* EMNLP 2020. [[paper](https://aclanthology.org/2020.emnlp-main.48.pdf)] [[code](https://github.com/mbforbes/social-chemistry-101)]
+- **Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk.** *Ulmer et al.* arXiv 2024 [[paper](https://arxiv.org/abs/2401.05033)]
 
-- **Aligning to Social Norms and Values in Interactive Narratives** *Prithviraj et al.* NAACL 2022. [[paper](https://aclanthology.org/2022.naacl-main.439.pdf)]
+- **Social Chemistry 101: Learning to Reason about Social and Moral Norms.** *Forbes et al.* EMNLP 2020. [[paper](https://aclanthology.org/2020.emnlp-main.48.pdf)] [[code](https://github.com/mbforbes/social-chemistry-101)]
 
-- **The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems** *Ziems et al.* ACL 2022. [[paper](https://aclanthology.org/2022.acl-long.261.pdf)] [[code](https://github.com/SALT-NLP/mic)]
+- **Aligning to Social Norms and Values in Interactive Narratives.** *Prithviraj et al.* NAACL 2022. [[paper](https://aclanthology.org/2022.naacl-main.439.pdf)]
 
-- **Agent Alignment in Evolving Social Norms** *Li et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.04620)]
+- **The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems.** *Ziems et al.* ACL 2022. [[paper](https://aclanthology.org/2022.acl-long.261.pdf)] [[code](https://github.com/SALT-NLP/mic)]
+
+- **Agent Alignment in Evolving Social Norms.** *Li et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.04620)]
 
 - **What are human values, and how do we align AI to them?** *Klingefjord et al.* arXiv 2024. [[paper](https://arxiv.org/pdf/2404.10636)]
 
 #### 4.2 Human Collective Intelligence
 
-- **Constitutional AI: Harmlessness from AI Feedback** *Bai et al.* arXiv 2022. [[paper](https://arxiv.org/abs/2212.08073)] [[code](https://github.com/anthropics/ConstitutionalHarmlessnessPaper)]
+- **Constitutional AI: Harmlessness from AI Feedback.** *Bai et al.* arXiv 2022. [[paper](https://arxiv.org/abs/2212.08073)] [[code](https://github.com/anthropics/ConstitutionalHarmlessnessPaper)]
 
-- **Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision** *Sun et al.* NeurIPS 2023. [[paper](https://arxiv.org/abs/2305.03047)] [[code](https://github.com/IBM/Dromedary)]
+- **Collective Constitutional AI: Aligning a Language Model with Public Input.** Huang et al. 2024. [[paper](https://dl.acm.org/doi/10.1145/3630106.3658979)] [[blog](https://www.anthropic.com/news/collective-constitutional-ai-aligning-a-language-model-with-public-input)]
 
-- **ConstitutionMaker: Interactively Critiquing Large Language Models by Converting Feedback into Principles** *Petridis et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.15428)]
+- **Democratic inputs to AI grant program: lessons learned and implementation plans.** OpenAI. 2023. [[blog](https://openai.com/index/democratic-inputs-to-ai-grant-program-update/)]
 
-- **Case Law Grounding: Aligning Judgments of Humans and AI on Socially-Constructed Concepts** *Chen et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.07019)]
+- **Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision.** *Sun et al.* NeurIPS 2023. [[paper](https://arxiv.org/abs/2305.03047)] [[code](https://github.com/IBM/Dromedary)]
 
-- **LeetPrompt: Leveraging Collective Human Intelligence to Study LLMs** *Santy et al.* arXiv 2024. [[paper](https://openreview.net/pdf?id=1SEXzogsET)]
+- **ConstitutionMaker: Interactively Critiquing Large Language Models by Converting Feedback into Principles.** *Petridis et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.15428)]
 
-- **CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies** *Shi et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2404.15238)] [[code](https://github.com/SALT-NLP/CultureBank)]
+- **Case Law Grounding: Aligning Judgments of Humans and AI on Socially-Constructed Concepts.** *Chen et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.07019)]
 
-- **IterAlign: Iterative Constitutional Alignment of Large Language Models** *Chen et al.* NAACL 2024. [[paper](https://arxiv.org/abs/2403.18341)]
+- **LeetPrompt: Leveraging Collective Human Intelligence to Study LLMs.** *Santy et al.* arXiv 2024. [[paper](https://openreview.net/pdf?id=1SEXzogsET)]
+
+- **CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies.** *Shi et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2404.15238)] [[code](https://github.com/SALT-NLP/CultureBank)]
+
+- **IterAlign: Iterative Constitutional Alignment of Large Language Models.** *Chen et al.* NAACL 2024. [[paper](https://arxiv.org/abs/2403.18341)]
 
 #### 4.3 Tool Execution Feedback
 
-- **Teaching Large Language Models to Self-Debug** *Chen et al.* ICLR 2024. [[paper](https://openreview.net/pdf?id=KuPixIqPiq)]
+- **Teaching Large Language Models to Self-Debug.** *Chen et al.* ICLR 2024. [[paper](https://openreview.net/pdf?id=KuPixIqPiq)]
 
-- **SelfEvolve: A Code Evolution Framework via Large Language Models** *Jiang et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2306.02907)]
+- **SelfEvolve: A Code Evolution Framework via Large Language Models.** *Jiang et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2306.02907)]
 
-- **CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning** *Le et al.* NeurIPS 2022. [[paper](https://arxiv.org/abs/2207.01780)] [[code](https://github.com/salesforce/CodeRL)]
+- **CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning.** *Le et al.* NeurIPS 2022. [[paper](https://arxiv.org/abs/2207.01780)] [[code](https://github.com/salesforce/CodeRL)]
 
-- **CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing** *Gou et al.* ICLR 2024. [[paper](https://openreview.net/pdf?id=Sx038qxjek)] [[code](https://github.com/microsoft/ProphetNet/tree/master/CRITIC)]
+- **CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing.** *Gou et al.* ICLR 2024. [[paper](https://openreview.net/pdf?id=Sx038qxjek)] [[code](https://github.com/microsoft/ProphetNet/tree/master/CRITIC)]
 
-- **AUTOACT: Automatic Agent Learning from Scratch via Self-Planning** *Qiao et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.05268)] [[code](https://github.com/zjunlp/AutoAct)]
+- **AUTOACT: Automatic Agent Learning from Scratch via Self-Planning.** *Qiao et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.05268)] [[code](https://github.com/zjunlp/AutoAct)]
 
-- **LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error** *Wang et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2403.04746)] [[code](https://github.com/microsoft/simulated-trial-and-error)]
+- **LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error.** *Wang et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2403.04746)] [[code](https://github.com/microsoft/simulated-trial-and-error)]
 
-- **Making Language Models Better Tool Learners with Execution Feedback** *Qiao et al.* NAACL 2024. [[paper](https://arxiv.org/abs/2305.13068)] [[code](https://github.com/zjunlp/TRICE)]
+- **Making Language Models Better Tool Learners with Execution Feedback.** *Qiao et al.* NAACL 2024. [[paper](https://arxiv.org/abs/2305.13068)] [[code](https://github.com/zjunlp/TRICE)]
 
 #### 4.4 Embodied Environment
 
-- **Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning** *Carta et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2302.02662)] [[code](https://github.com/flowersteam/Grounding_LLMs_with_online_RL)]
+- **Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning.** *Carta et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2302.02662)] [[code](https://github.com/flowersteam/Grounding_LLMs_with_online_RL)]
 
-- **Language Models Meet World Models: Embodied Experiences Enhance Language Models** *Xiang et al.* NeurIPS 2023. [[paper](https://arxiv.org/abs/2305.10626)] [[code](https://github.com/szxiangjn/world-model-for-language-model?tab=readme-ov-file)]
+- **Language Models Meet World Models: Embodied Experiences Enhance Language Models.** *Xiang et al.* NeurIPS 2023. [[paper](https://arxiv.org/abs/2305.10626)] [[code](https://github.com/szxiangjn/world-model-for-language-model?tab=readme-ov-file)]
 
-- **True Knowledge Comes from Practice: Aligning LLMs with Embodied Environments via Reinforcement Learning** *Tan et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.14151)] [[code](https://github.com/WeihaoTan/TWOSOME)]
+- **True Knowledge Comes from Practice: Aligning LLMs with Embodied Environments via Reinforcement Learning.** *Tan et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.14151)] [[code](https://github.com/WeihaoTan/TWOSOME)]
 
-- **Do As I Can, Not As I Say: Grounding Language in Robotic Affordances** *Ahn et al.* arXiv 2022. [[paper](https://say-can.github.io/assets/palm_saycan.pdf)] [[code](https://say-can.github.io/)]
+- **Do As I Can, Not As I Say: Grounding Language in Robotic Affordances.** *Ahn et al.* arXiv 2022. [[paper](https://say-can.github.io/assets/palm_saycan.pdf)] [[code](https://say-can.github.io/)]
 
-- **Voyager: An Open-Ended Embodied Agent with Large Language Models** *Wang et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2305.16291)] [[code](https://github.com/MineDojo/Voyager)]
+- **Voyager: An Open-Ended Embodied Agent with Large Language Models.** *Wang et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2305.16291)] [[code](https://github.com/MineDojo/Voyager)]
 
-- **Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents** *Song et al.* ACL 2024. [[paper](https://arxiv.org/abs/2403.02502)] [[code](https://github.com/Yifan-Song793/ETO)]
+- **Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents.** *Song et al.* ACL 2024. [[paper](https://arxiv.org/abs/2403.02502)] [[code](https://github.com/Yifan-Song793/ETO)]
 
-- **Large Language Models as Generalizable Policies for Embodied Tasks** *Szot et al.* ICLR 2024. [[paper](https://arxiv.org/abs/2310.17722)]
+- **Large Language Models as Generalizable Policies for Embodied Tasks.** *Szot et al.* ICLR 2024. [[paper](https://arxiv.org/abs/2310.17722)]
 
 ### 5. Underlying Mechanism of Automated Alignment
 
