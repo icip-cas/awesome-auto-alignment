@@ -1,9 +1,14 @@
 # Awesome Automated Alignment
 
+<div align="center">
+<img src="./Figures/head.png" width="400">
+
+[[arXiv paper link (updated monthly)]](https://arxiv.org/abs/2406.01252)
+[[CDN paper link (updated nightly)]](https://luxinyu-oss.oss-cn-beijing.aliyuncs.com/automated_alignment/AutoAlign.pdf)
+</div>
+
 This is a collection of papers and other resources for scalable automated alignment, which corresponds to the survey paper **Towards Scalable Automated Alignment of LLMs: A Survey**. 
 We will update the survey content and this repo regularly, and we very much welcome suggestions of any kind.
-
-![mage](./Figures/head.png)
 
 ## 📢 News 
 
