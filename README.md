@@ -4,7 +4,7 @@
 <img src="./Figures/head.png" width="400">
 
 [[arXiv paper link (updated monthly)]](https://arxiv.org/abs/2406.01252)
-[[CDN paper link (updated nightly)]](https://luxinyu-oss.oss-cn-beijing.aliyuncs.com/automated_alignment/AutoAlign.pdf)
+[[CDN paper link (updated nightly)]](https://lxylab.oss-cn-shanghai.aliyuncs.com/automated_alignment/AutoAlign.pdf)
 </div>
 
 This is a collection of papers and other resources for scalable automated alignment, which corresponds to the survey paper **Towards Scalable Automated Alignment of LLMs: A Survey**. 
