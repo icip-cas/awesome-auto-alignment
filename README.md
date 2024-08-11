@@ -3,14 +3,18 @@
 <div align="center">
 <img src="./Figures/head.png" width="400">
 
-[[arXiv paper link (updated monthly)]](https://arxiv.org/abs/2406.01252)
-[[CDN paper link (updated nightly)]](https://lxylab.oss-cn-shanghai.aliyuncs.com/automated_alignment/AutoAlign.pdf)
+[[arXiv link (updated monthly)]](https://arxiv.org/abs/2406.01252)
+[[OSS link (updated nightly)]](https://lxylab.oss-cn-shanghai.aliyuncs.com/automated_alignment/AutoAlign.pdf)
 </div>
 
 This is a collection of papers and other resources for scalable automated alignment, which corresponds to the survey paper **Towards Scalable Automated Alignment of LLMs: A Survey**. 
 We will update the survey content and this repo regularly, and we very much welcome suggestions of any kind.
 
-## 📢 News 
+## 📢 News
+
+**[June 1, 2024]** We will share the tutorial of this paper at CCL 2024 and CIPS ATT 2024!
+
+**[July 17, 2024]** We have uploaded the second version of the paper, which features refined expressions that enhance clarity and coherence and incorporates recent literature. Check it out on arXiv and OSS!
 
 **[June 4, 2024]** The first preprint version of this survey is released. Since many of the topics covered in this paper are rapidly evolving, we anticipate updating this repository and paper at a relatively fast pace.
 
@@ -61,13 +65,15 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 - **Self-Consistency Improves Chain of Thought Reasoning in Language Models.** *Wang et al.* ICLR 2023. [[Paper](https://openreview.net/forum?id=1PL1NIMMrw)]
 
+- **MoT: Memory-of-Thought Enables ChatGPT to Self-Improve.** *Li et al.* EMNLP 2023. [[Paper](https://aclanthology.org/2023.emnlp-main.392)]
+
 - **Large Language Models Can Self-Improve.** *Huang et al.* EMNLP 2023. [[Paper](https://openreview.net/forum?id=uuUQraD4XX)]
 
 - **West-of-N: Synthetic Preference Generation for Improved Reward Modeling.** *Pace et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2401.12086)]
 
 - **Quiet-STaR: Language models can teach themselves to think before speaking.** *Zelikman et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2403.09629)]
 
-#### 1.2 Self-Judge / Critic / Refine
+#### 1.2 Self-Judge / Critique / Refine
 
 - **Constitutional AI: Harmlessness from AI feedback.** *Bai et al.* arXiv 2022. [[paper](https://arxiv.org/abs/2212.08073)]
 
@@ -83,7 +89,9 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 - **A general language assistant as a laboratory for alignment.** *Askell et al.* arXiv 2021 [[Paper](https://arxiv.org/abs/2112.00861)]
 
-- **LLaMA: Open and Efficient Foundation Language Models.** *Hugo Touvron et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2302.13971v1)] [[Code](https://github.com/meta-llama/llama)]
+- **Llama 2: Open Foundation and Fine-Tuned Chat Models.** *Hugo Touvron et al.* arXiv 2023. [[Paper](https://arxiv.org/pdf/2307.09288)] [[Model](https://github.com/meta-llama/llama-models)]
+
+- **The Llama 3 Herd of Models.** *Dubey et al.* arXiv 2024. [[Paper](https://arxiv.org/pdf/2407.21783)]
 
 - **Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision.** *Sun et al.* NIPS 2023. [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/0764db1151b936aca59249e2c1386101-Paper-Conference.pdf)]
 
@@ -105,6 +113,8 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 - **Chain-of-Thought Reasoning is a Policy Improvement Operator.** *Hugh Zhang et al.* NeurIPS 2023 Workshop on Instruction Tuning and Instruction Following 2023. [[paper](https://openreview.net/forum?id=bH64KCBzqS)]
 
 - **Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models.** *Wang et al.* ACL 2023. [[paper](https://aclanthology.org/2023.acl-long.147)]
+
+- **Learning task decomposition to assist humans in competitive programming.** *Wen et al.* ACL 2024. [[paper](https://arxiv.org/abs/2406.04604)]
 
 #### 1.5 Self-play
 
@@ -131,6 +141,10 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 - **Self-playing Adversarial Language Game Enhances LLM Reasoning.** *Cheng et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2404.10642)]
 
 - **Red teaming game: A game-theoretic framework for red teaming language models.** *Ma et al.* arXiv 2023. [[paper](https://arxiv.org/abs/2310.00322)]
+
+- **Toward optimal llm alignments using two-player games.** *Zheng et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2406.01252)]
+
+- **Prover-Verifier Games improve legibility of language model outputs.** *Kirchner et al.* arXiv 2024. [[blog](https://openai.com/index/prover-verifier-games-improve-legibility/)] [[paper](https://arxiv.org/abs/2407.13692)]
 
 ### 2. Aligning through behaviour imitation
 
