@@ -12,7 +12,7 @@ We will update the survey content and this repo regularly, and we very much welc
 
 ## 📢 News
 
-**[June 1, 2024]** We will share the tutorial of this paper at CCL 2024 and CIPS ATT 2024!
+**[August 1, 2024]** We will share the tutorial of this paper at CCL 2024 and CIPS ATT 2024!
 
 **[July 17, 2024]** We have uploaded the second version of the paper, which features refined expressions that enhance clarity and coherence and incorporates recent literature. Check it out on arXiv and OSS!
 
