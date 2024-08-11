@@ -63,13 +63,13 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 - **Revisiting Self-Training for Neural Sequence Generation.** *Junxian He et al.* ICLR 2020. [[paper](https://openreview.net/forum?id=SJgdnAVKDH)]
 
-- **Self-Consistency Improves Chain of Thought Reasoning in Language Models.** *Wang et al.* ICLR 2023. [[Paper](https://openreview.net/forum?id=1PL1NIMMrw)]
+- **Self-Consistency Improves Chain of Thought Reasoning in Language Models.** *Wang et al.* ICLR 2023. [[paper](https://openreview.net/forum?id=1PL1NIMMrw)]
 
-- **MoT: Memory-of-Thought Enables ChatGPT to Self-Improve.** *Li et al.* EMNLP 2023. [[Paper](https://aclanthology.org/2023.emnlp-main.392)]
+- **MoT: Memory-of-Thought Enables ChatGPT to Self-Improve.** *Li et al.* EMNLP 2023. [[paper](https://aclanthology.org/2023.emnlp-main.392)]
 
-- **Large Language Models Can Self-Improve.** *Huang et al.* EMNLP 2023. [[Paper](https://openreview.net/forum?id=uuUQraD4XX)]
+- **Large Language Models Can Self-Improve.** *Huang et al.* EMNLP 2023. [[paper](https://openreview.net/forum?id=uuUQraD4XX)]
 
-- **West-of-N: Synthetic Preference Generation for Improved Reward Modeling.** *Pace et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2401.12086)]
+- **West-of-N: Synthetic Preference Generation for Improved Reward Modeling.** *Pace et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.12086)]
 
 - **Quiet-STaR: Language models can teach themselves to think before speaking.** *Zelikman et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2403.09629)]
 
@@ -77,9 +77,9 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 - **Constitutional AI: Harmlessness from AI feedback.** *Bai et al.* arXiv 2022. [[paper](https://arxiv.org/abs/2212.08073)]
 
-- **Tree of Thoughts: Deliberate Problem Solving with Large Language Models.** *Yao et al.* NeurIPS 2023. [[Paper](https://openreview.net/forum?id=5Xc1ecxO1h)][[Code](https://github.com/princeton-nlp/tree-of-thought-llm)][[Video](https://nips.cc/virtual/2023/oral/73874)]
+- **Tree of Thoughts: Deliberate Problem Solving with Large Language Models.** *Yao et al.* NeurIPS 2023. [[paper](https://openreview.net/forum?id=5Xc1ecxO1h)][[code](https://github.com/princeton-nlp/tree-of-thought-llm)][[video](https://nips.cc/virtual/2023/oral/73874)]
 
-- **Large Language Models are reasoners with Self-Verification.** *Weng et al.* Findings of EMNLP 2023. [[Paper](https://aclanthology.org/2023.findings-emnlp.167.pdf)][[Code](https://github.com/WENGSYX/Self-Verification)]
+- **Large Language Models are reasoners with Self-Verification.** *Weng et al.* Findings of EMNLP 2023. [[paper](https://aclanthology.org/2023.findings-emnlp.167.pdf)] [[code](https://github.com/WENGSYX/Self-Verification)]
 
 - **Self-rewarding language models.** *Yuan et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.10020)]
 
@@ -87,11 +87,11 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 #### 1.3 Context Distillation
 
-- **A general language assistant as a laboratory for alignment.** *Askell et al.* arXiv 2021 [[Paper](https://arxiv.org/abs/2112.00861)]
+- **A general language assistant as a laboratory for alignment.** *Askell et al.* arXiv 2021 [[paper](https://arxiv.org/abs/2112.00861)]
 
-- **Llama 2: Open Foundation and Fine-Tuned Chat Models.** *Hugo Touvron et al.* arXiv 2023. [[Paper](https://arxiv.org/pdf/2307.09288)] [[Model](https://github.com/meta-llama/llama-models)]
+- **Llama 2: Open Foundation and Fine-Tuned Chat Models.** *Hugo Touvron et al.* arXiv 2023. [[paper](https://arxiv.org/pdf/2307.09288)] [[model](https://github.com/meta-llama/llama-models)]
 
-- **The Llama 3 Herd of Models.** *Dubey et al.* arXiv 2024. [[Paper](https://arxiv.org/pdf/2407.21783)]
+- **The Llama 3 Herd of Models.** *Dubey et al.* arXiv 2024. [[paper](https://arxiv.org/pdf/2407.21783)]
 
 - **Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision.** *Sun et al.* NIPS 2023. [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/0764db1151b936aca59249e2c1386101-Paper-Conference.pdf)]
 
@@ -318,7 +318,7 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 - **Constitutional ai: Harmlessness from ai feedback.** *Bai et al.* arXiv 2022. [[paper](https://arxiv.org/abs/2212.08073)]
 
-- **Training language models to follow instructions with human feedback** *Ouyang et al.* NeurIPS 2022. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html)]
+- **Training language models to follow instructions with human feedback** *Ouyang et al.* NeurIPS 2022. [[paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html)]
 
 - **Training a helpful and harmless assistant with reinforcement learning from human feedback.** *Bai et al.* arXiv 2022. [[paper](https://arxiv.org/abs/2204.05862)]
 
