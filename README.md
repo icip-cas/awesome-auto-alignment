@@ -380,6 +380,9 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 - **Improving Large Language Models via Fine-grained Reinforcement Learning with Minimum Editing Constraint.** *Zhipeng Chen et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2401.06081)]
 
+- **Aligning Large Language Models via Fine-grained Supervision** *Dehong Xu et al.* ACL 2024. [[paper](https://arxiv.org/abs/2406.02756)]
+
+- **BOND: Aligning LLMs with Best-of-N Distillation** *Pier Giuseppe Sessa et al.* arXiv 2024. [[paper](https://www.arxiv.org/abs/2407.14622)]
 
 #### 3.2 Binary Verifier
 
@@ -432,6 +435,8 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 * **Open Source Language Models Can Provide Feedback: Evaluating LLMs' Ability to Help Students Using GPT-4-As-A-Judge.** *Charles Koutcheme et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2405.05253)]
 
 * **Learning From Mistakes Makes LLM Better Reasoner.** *Shengnan An et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2310.20689)]
+
+* **LLMs are Superior Feedback Providers: Bootstrapping Reasoning for Lie Detection with Self-Generated Feedback** *Tanushree Banerjee et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2408.13915)]
 
 ### 4. Aligning through environment feedback
 
