@@ -12,6 +12,8 @@ We will update the survey content and this repo regularly, and we very much welc
 
 ## 📢 News
 
+**[September 4, 2024]** We release the third version of the paper, adding more recent papers. Check it out on arXiv and OSS!
+
 **[August 1, 2024]** We will share the tutorial of this paper at CCL 2024 and CIPS ATT 2024!
 
 **[July 17, 2024]** We have uploaded the second version of the paper, which features refined expressions that enhance clarity and coherence and incorporates recent literature. Check it out on arXiv and OSS!
@@ -584,3 +586,11 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 * **Theoretical Analysis of Weak-to-Strong Generalization.** *Lang et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2405.16043)]
 
 * **Quantifying the Gain in Weak-to-Strong Generalization.** *Charikar et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2405.15116)]
+
+## Recommended Tutorials or Workshops on Automated Alignment
+
+| Workshop | Description |
+| --- | --- |
+| [NOLA 2023](https://www.alignment-workshop.com/nola-2023) | Top ML researchers from industry and academia convened in New Orleans, before NeurIPS 2023, to discuss AI alignment and potential risks from advanced AI. |
+| [AI for Math Workshop @ ICML 2024](https://sites.google.com/view/ai4mathworkshopicml2024) | Attendants from various backgrounds discuss autoformalization, automated theorem proving, theorem generation, code augmentation for mathematical reasoning, and formal verification. |
+| [Models of Human Feedback for AI Alignment @ ICML 2024](https://sites.google.com/view/mhf-icml2024) | Bringing together different communities to understand human feedback, discuss mathematical and computational models of human feedback, and explore future directions for better AI alignment. |
