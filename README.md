@@ -14,9 +14,11 @@ We will update the survey content and this repo regularly, and we very much welc
 
 **[September 4, 2024]** We release the third version of the paper, adding more recent papers. Check it out on arXiv and OSS!
 
-**[August 1, 2024]** We will share the tutorial of this paper at CCL 2024 and CIPS ATT 2024!
+**[August 1, 2024]** We will share the tutorial of this paper at [CCL 2024](http://cips-cl.org/static/CCL2024/en/cclProgram/tutorial/index.html) and [CIPS ATT 2024](https://conference.cipsc.org.cn/ssatt2024/)!
 
 **[July 17, 2024]** We have uploaded the second version of the paper, which features refined expressions that enhance clarity and coherence and incorporates recent literature. Check it out on arXiv and OSS!
+
+**[June 5, 2024]** Thanks for [elvis@X](https://x.com/omarsar0) and [DAIR.AI](https://dair-ai.thinkific.com/) for sharing our work!
 
 **[June 4, 2024]** The first preprint version of this survey is released. Since many of the topics covered in this paper are rapidly evolving, we anticipate updating this repository and paper at a relatively fast pace.
 
