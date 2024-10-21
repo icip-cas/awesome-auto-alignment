@@ -310,6 +310,8 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 
 * **A statistical framework for weak-to-strong generalization.** *Seamus Somerstep et al.* arXiv 2024. [[paper](https://arxiv.org/abs/2405.16236)]
 
+* **MACPO: Weak-to-Strong Alignment via Multi-Agent Contrastive Preference Optimization.** *Yougang Lyu et al.* [[paper](https://arxiv.org/pdf/2410.07672)]
+
 ### 3. Aligning through model feedback
 
 #### 3.1 Scalar Reward
@@ -599,5 +601,6 @@ Additionally, we explore the underlying mechanisms that enable automated alignme
 | Workshop | Description |
 | --- | --- |
 | [NOLA 2023](https://www.alignment-workshop.com/nola-2023) | Top ML researchers from industry and academia convened in New Orleans, before NeurIPS 2023, to discuss AI alignment and potential risks from advanced AI. |
+| [Vienna 2024](https://www.alignment-workshop.com/vienna-2024) | The Vienna Alignment Workshop is an exclusive event bringing together 150 hand-selected AI researchers and leaders from various sectors to discuss AI safety and alignment issues. Held in conjunction with ICML, the workshop covers topics like safe AI, interpretability, and governance. |
 | [AI for Math Workshop @ ICML 2024](https://sites.google.com/view/ai4mathworkshopicml2024) | Attendants from various backgrounds discuss autoformalization, automated theorem proving, theorem generation, code augmentation for mathematical reasoning, and formal verification. |
 | [Models of Human Feedback for AI Alignment @ ICML 2024](https://sites.google.com/view/mhf-icml2024) | Bringing together different communities to understand human feedback, discuss mathematical and computational models of human feedback, and explore future directions for better AI alignment. |
