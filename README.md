@@ -29,10 +29,10 @@ If you find our survey or repo useful, please consider citing:
 ```
 @article{AutomatedAlignmentSurvey,
     title={Towards Scalable Automated Alignment of LLMs: A Survey},
-    author={Boxi Cao, Keming Lu, Xinyu Lu, Jiawei Chen, Mengjie Ren, Hao Xiang, Peilin Liu, Yaojie Lu, Ben He, Xianpei Han, Le Sun, Hongyu Lin, and Bowen Yu},
-    year={2024},
+    author={Cao, Boxi and Lu, Keming and Lu, Xinyu and Chen, Jiawei and Ren, Mengjie and Xiang, Hao and Liu, Peilin and Lu, Yaojie and He, Ben and Han, Xianpei and Le, Sun and Lin, Hongyu and Yu, Bowen},
     journal={arXiv preprint arXiv:2406.01252},
     url={https://arxiv.org/abs/2406.01252}
+    year={2024}
 }
 ```
 
